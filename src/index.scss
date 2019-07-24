@@ -1,0 +1,61 @@
+$color-white:#fff;
+$color-black:#000;
+
+@font-face {
+  font-family: LeagueMonoVariable;
+  src: url(./LeagueMonoVariable.ttf) format('truetype');
+}
+
+body {
+  margin: 0;
+  font-family: LeagueMonoVariable, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.wrapper {
+  margin: 0 auto;
+  width: 572px;
+  position: relative;
+  background: #C1EDFF;
+}
+
+.App{
+  background: $color-black;
+  color: $color-white;
+}
+
+.label {transition: all 100ms ease 0ms}
+
+#tooltip {
+  position: absolute;
+  width: fit-content;
+  border-radius: 100px;
+  background: #000000;
+  opacity: 0.8;
+  pointer-events: none;
+
+
+  &.hidden {
+    display: none;
+  }
+
+  p {
+    color: white;
+    margin: 0;
+    font-size: 10px;
+    line-height: 13px;
+    padding: 4px 9px 5px;
+  }
+
+  .year {
+    opacity: 0.4;
+  }
+}

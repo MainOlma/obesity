@@ -1,0 +1,207 @@
+Id,Col,Row,ShortName,CountryCode,Continent,Country
+0,16,11,Afghanistan,AFG,Indian,Afghanistan
+1,11,10,Albania,ALB,Europe,Albania
+2,9,12,Algeria,DZA,Africa,Algeria
+3,22,19,American Samoa,ASM,Oceania,American Samoa
+4,7,7,Andorra,ADO,Europe,Andorra
+5,11,23,Angola,AGO,Africa,Angola
+6,5,15,Antigua and Barbuda,ATG,Central America,Antigua and Barbuda
+7,3,25,Argentina,ARG,South America,Argentina
+8,14,10,Armenia,ARM,Middle East,Armenia
+9,3,18,Aruba,ABW,Central America,Aruba
+10,19,23,Australia,AUS,Oceania,Australia
+11,10,6,Austria,AUT,Europe,Austria
+12,15,10,Azerbaijan,AZE,Middle East,Azerbaijan
+13,3,10,Bahamas,BHS,Central America,Bahamas
+14,15,14,Bahrain,BHR,Middle East,Bahrain
+15,18,13,Bangladesh,BGD,Indian,Bangladesh
+16,5,17,Barbados,BRB,Central America,Barbados
+17,13,4,Belarus,BLR,Europe,Belarus
+18,8,5,Belgium,BEL,Europe,Belgium
+19,2,15,Belize,BLZ,Central America,Belize
+20,10,17,Benin,BEN,Africa,Benin
+21,4,7,Bermuda,BMU,North America,Bermuda
+22,18,12,Bhutan,BTN,Indian,Bhutan
+23,3,22,Bolivia,BOL,South America,Bolivia
+24,11,8,Bosnia and Herzegovina,BIH,Europe,Bosnia and Herzegovina
+25,12,24,Botswana,BWA,Africa,Botswana
+26,5,22,Brazil,BRA,South America,Brazil
+27,20,17,Brunei,BRN,South-east Asia,Brunei
+28,13,7,Bulgaria,BGR,Europe,Bulgaria
+29,9,16,Burkina Faso,BFA,Africa,Burkina Faso
+30,13,21,Burundi,BDI,Africa,Burundi
+31,19,15,Cambodia,KHM,South-east Asia,Cambodia
+32,11,19,Cameroon,CMR,Africa,Cameroon
+33,2,4,Canada,CAN,North America,Canada
+34,6,12,Cabo Verde,CPV,Africa,Cabo Verde
+35,2,12,Cayman Islands,CYM,Central America,Cayman Islands
+36,12,19,Central African Republic,CAF,Africa,Central African Republic
+37,11,14,Chad,TCD,Africa,Chad
+38,2,25,Chile,CHL,South America,Chile
+39,20,8,Taiwan,TWN,South-east Asia,Taiwan
+40,19,8,China,CHN,South-east Asia,China
+41,2,20,Colombia,COL,South America,Colombia
+42,14,23,Comoros,COM,Africa,Comoros
+43,11,22,Democratic Republic of the Congo,ZAR,Africa,Democratic Republic of the Congo
+44,12,21,Congo,COG,Africa,Congo
+45,2,18,Costa Rica,CRI,Central America,Costa Rica
+46,8,18,Côte d'Ivoire,CIV,Africa,Côte d'Ivoire
+47,11,7,Croatia,HRV,Europe,Croatia
+48,2,11,Cuba,CUB,Central America,Cuba
+49,3,19,Curacao,CUW,Central America,Curacao
+50,12,11,Cyprus,CYP,Europe,Cyprus
+51,11,5,Czech Republic,CZE,Europe,Czech Republic
+52,10,4,Denmark,DNK,Europe,Denmark
+53,14,17,Djibouti,DJI,Africa,Djibouti
+54,5,16,Dominica,DMA,Central America,Dominica
+55,4,12,Dominican Republic,DOM,Central America,Dominican Republic
+56,2,21,Ecuador,ECU,South America,Ecuador
+57,12,13,Egypt,EGY,Africa,Egypt
+58,1,17,El Salvador,SLV,Central America,El Salvador
+59,11,20,Equatorial Guinea,GNQ,Africa,Equatorial Guinea
+60,13,15,Eritrea,ERI,Africa,Eritrea
+61,12,2,Estonia,EST,Europe,Estonia
+62,14,18,Ethiopia,ETH,Africa,Ethiopia
+63,21,20,Fiji,FJI,Oceania,Fiji
+64,12,1,Finland,FIN,Europe,Finland
+65,7,6,France,FRA,Europe,France
+66,22,22,French Polynesia,PYF,Oceania,French Polynesia
+67,11,21,Gabon,GAB,Africa,Gabon
+68,7,14,Gambia,GMB,Africa,Gambia
+69,14,9,Georgia,GEO,Middle East,Georgia
+70,10,5,Germany,DEU,Europe,Germany
+71,9,18,Ghana,GHA,Africa,Ghana
+72,12,10,Greece,GRC,Europe,Greece
+73,5,1,Greenland,GRL,Europe,Greenland
+74,4,18,Grenada,GRD,Central America,Grenada
+75,22,12,Guam,GUM,Oceania,Guam
+76,1,16,Guatemala,GTM,Central America,Guatemala
+77,7,16,Guinea,GIN,Africa,Guinea
+78,7,15,Guinea-Bissau,GNB,Africa,Guinea-Bissau
+79,4,20,Guyana,GUY,South America,Guyana
+80,3,12,Haiti,HTI,Central America,Haiti
+81,2,16,Honduras,HND,Central America,Honduras
+82,20,9,Hong Kong,HKG,South-east Asia,Hong Kong
+83,12,6,Hungary,HUN,Europe,Hungary
+84,6,1,Iceland,ISL,Europe,Iceland
+85,17,13,India,IND,Indian,India
+86,19,18,Indonesia,IDN,South-east Asia,Indonesia
+87,15,11,Iran,IRN,Middle East,Iran
+88,15,12,Iraq,IRQ,Middle East,Iraq
+89,6,4,Ireland,IRL,Europe,Ireland
+90,13,12,Israel,ISR,Middle East,Israel
+91,9,8,Italy,ITA,Europe,Italy
+92,2,13,Jamaica,JAM,Central America,Jamaica
+93,22,7,Japan,JPN,South-east Asia,Japan
+94,14,12,Jordan,JOR,Middle East,Jordan
+95,16,7,Kazakhstan,KAZ,Central Asia,Kazakhstan
+96,14,19,Kenya,KEN,Africa,Kenya
+97,22,16,Kiribati,KIR,Oceania,Kiribati
+98,21,6,North Korea,PRK,South-east Asia,North Korea
+99,21,7,Republic of Korea,KOR,South-east Asia,Republic of Korea
+100,15,13,Kuwait,KWT,Middle East,Kuwait
+101,17,9,Kyrgyzstan,KGZ,Central Asia,Kyrgyzstan
+102,19,13,Laos,LAO,South-east Asia,Laos
+103,12,3,Latvia,LVA,Europe,Latvia
+104,13,11,Lebanon,LBN,Middle East,Lebanon
+105,12,25,Lesotho,LSO,Africa,Lesotho
+106,7,18,Liberia,LBR,Africa,Liberia
+107,11,13,Libya,LBY,Africa,Libya
+108,9,6,Liechtenstein,LIE,Europe,Liechtenstein
+109,12,4,Lithuania,LTU,Europe,Lithuania
+110,9,5,Luxembourg,LUX,Europe,Luxembourg
+111,20,10,Macao,MAC,South-east Asia,Macao
+112,12,9,Macedonia,MKD,Europe,Macedonia
+113,14,24,Madagascar,MDG,Africa,Madagascar
+114,13,22,Malawi,MWI,Africa,Malawi
+115,19,16,Malaysia,MYS,South-east Asia,Malaysia
+116,17,15,Maldives,MDV,Indian,Maldives
+117,9,14,Mali,MLI,Africa,Mali
+118,9,9,Malta,MLT,Europe,Malta
+119,7,12,Mauritania,MRT,Africa,Mauritania
+120,15,25,Mauritius,MUS,Africa,Mauritius
+121,1,10,Mexico,MEX,Central America,Mexico
+122,22,14,Micronesia,FSM,Oceania,Micronesia
+123,14,6,Moldova,MDA,Europe,Moldova
+124,8,7,Monaco,MCO,Europe,Monaco
+125,19,6,Mongolia,MNG,South-east Asia,Mongolia
+126,11,9,Montenegro,MNE,Europe,Montenegro
+127,8,12,Morocco,MAR,Africa,Morocco
+128,13,23,Mozambique,MOZ,Africa,Mozambique
+129,18,14,Myanmar,MMR,South-east Asia,Myanmar
+130,11,24,Namibia,NAM,Africa,Namibia
+131,17,12,Nepal,NPL,Indian,Nepal
+132,9,4,Netherlands,NLD,Europe,Netherlands
+133,21,21,New Caledonia,NCL,Oceania,New Caledonia
+134,21,25,New Zealand,NZL,Oceania,New Zealand
+135,2,17,Nicaragua,NIC,Central America,Nicaragua
+136,10,14,Niger,NER,Africa,Niger
+137,11,18,Nigeria,NGA,Africa,Nigeria
+138,10,1,Norway,NOR,Europe,Norway
+139,16,16,Oman,OMN,Middle East,Oman
+140,16,12,Pakistan,PAK,Indian,Pakistan
+141,21,14,Palau,PLW,Oceania,Palau
+142,2,19,Panama,PAN,Central America,Panama
+143,20,18,Papua New Guinea,PNG,South-east Asia,Papua New Guinea
+144,4,23,Paraguay,PRY,South America,Paraguay
+145,2,22,Peru,PER,South America,Peru
+146,20,12,Philippines,PHL,South-east Asia,Philippines
+147,11,4,Poland,POL,Europe,Poland
+148,6,8,Portugal,PRT,Europe,Portugal
+149,5,12,Puerto Rico,PRI,Central America,Puerto Rico
+150,15,15,Qatar,QAT,Middle East,Qatar
+151,13,6,Romania,ROM,Europe,Romania
+152,16,4,Russian Federation,RUS,Central Asia,Russian Federation
+153,13,20,Rwanda,RWA,Africa,Rwanda
+154,22,20,Samoa,WSM,Oceania,Samoa
+155,9,7,San Marino,SMR,Europe,San Marino
+156,10,20,Sao Tome and Principe,STP,Africa,Sao Tome and Principe
+157,14,14,Saudi Arabia,SAU,Middle East,Saudi Arabia
+158,7,13,Senegal,SEN,Africa,Senegal
+159,12,7,Serbia,SRB,Europe,Serbia
+160,15,23,Seychelles,SYC,Africa,Seychelles
+161,7,17,Sierra Leone,SLE,Africa,Sierra Leone
+162,19,17,Singapore,SGP,South-east Asia,Singapore
+163,12,5,Slovakia,SVK,Europe,Slovakia
+164,10,7,Slovenia,SVN,Europe,Slovenia
+165,21,17,Solomon Islands,SLB,Oceania,Solomon Islands
+166,15,18,Somalia,SOM,Africa,Somalia
+167,11,25,South Africa,ZAF,Africa,South Africa
+168,7,8,Spain,ESP,Europe,Spain
+169,17,14,Sri Lanka,LKA,Indian,Sri Lanka
+170,5,14,Saint Kitts and Nevis,KNA,Central America,Saint Kitts and Nevis
+171,4,17,Saint Lucia,LCA,Central America,Saint Lucia
+172,5,18,Saint Vincent and the Grenadines,VCT,Central America,Saint Vincent and the Grenadines
+173,12,15,South Sudan,SSD,Africa,South Sudan
+174,12,14,Sudan,SDN,Africa,Sudan
+175,5,20,Suriname,SUR,South America,Suriname
+176,13,24,Swaziland,SWZ,Africa,Swaziland
+177,11,1,Sweden,SWE,Europe,Sweden
+178,8,6,Switzerland,CHE,Europe,Switzerland
+179,14,11,Syria,SYR,Middle East,Syria
+180,17,10,Tajikistan,TJK,Central Asia,Tajikistan
+181,14,21,Tanzania,TZA,Africa,Tanzania
+182,19,14,Thailand,THA,South-east Asia,Thailand
+183,19,19,Timor-Leste,TMP,South-east Asia,Timor-Leste
+184,10,18,Togo,TGO,Africa,Togo
+185,22,21,Tonga,TON,Oceania,Tonga
+186,4,19,Trinidad and Tobago,TTO,Central America,Trinidad and Tobago
+187,10,12,Tunisia,TUN,Africa,Tunisia
+188,13,10,Turkey,TUR,Middle East,Turkey
+189,16,10,Turkmenistan,TKM,Central Asia,Turkmenistan
+190,4,11,Turks and Caicos Islands,TCA,Central America,Turks and Caicos Islands
+191,21,18,Tuvalu,TUV,Oceania,Tuvalu
+192,13,19,Uganda,UGA,Africa,Uganda
+193,13,5,Ukraine,UKR,Europe,Ukraine
+194,16,15,United Arab Emirates,ARE,Middle East,United Arab Emirates
+195,7,4,United Kingdom,GBR,Europe,United Kingdom
+196,2,7,United States of America,USA,North America,United States
+197,4,24,Uruguay,URY,South America,Uruguay
+198,16,9,Uzbekistan,UZB,Central Asia,Uzbekistan
+199,21,19,Vanuatu,VUT,Oceania,Vanuatu
+200,3,20,Venezuela,VEN,South America,Venezuela
+201,19,12,Viet Nam,VNM,South-east Asia,Viet Nam
+202,5,13,United States Virgin Islands,VIR,Central America,United States Virgin Islands
+203,15,16,Yemen,YEM,Middle East,Yemen
+204,12,22,Zambia,ZMB,Africa,Zambia
+205,12,23,Zimbabwe,ZWE,Africa,Zimbabwe
