@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/fat/static/css/main.edbfc7d3.chunk.css",
+    "main.js": "/fat/static/js/main.f8af26e2.chunk.js",
+    "main.js.map": "/fat/static/js/main.f8af26e2.chunk.js.map",
+    "runtime~main.js": "/fat/static/js/runtime~main.e46317c3.js",
+    "runtime~main.js.map": "/fat/static/js/runtime~main.e46317c3.js.map",
+    "static/js/2.8733c675.chunk.js": "/fat/static/js/2.8733c675.chunk.js",
+    "static/js/2.8733c675.chunk.js.map": "/fat/static/js/2.8733c675.chunk.js.map",
+    "index.html": "/fat/index.html",
+    "precache-manifest.2235feb50fbe7a7e06e2b8af062fd33e.js": "/fat/precache-manifest.2235feb50fbe7a7e06e2b8af062fd33e.js",
+    "service-worker.js": "/fat/service-worker.js",
+    "static/css/main.edbfc7d3.chunk.css.map": "/fat/static/css/main.edbfc7d3.chunk.css.map",
+    "static/media/index.scss": "/fat/static/media/LeagueMonoVariable.36660314.ttf",
+    "static/media/fat.csv": "/fat/static/media/fat.a29f1d06.csv",
+    "static/media/gridMap.csv": "/fat/static/media/gridMap.4405af31.csv"
+  }
+}
