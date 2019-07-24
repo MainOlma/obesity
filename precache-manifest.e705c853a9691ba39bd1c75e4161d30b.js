@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "685837126df13fbdbaae580ed57cada8",
+    "revision": "17f7cb8d280fcee41b123a4ed0d04fd9",
     "url": "/fat/index.html"
   },
   {
-    "revision": "e02d74c31071fd54213e",
+    "revision": "eee69b3c1e3fba1a11a1",
     "url": "/fat/static/css/main.edbfc7d3.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fat/static/js/2.8733c675.chunk.js"
   },
   {
-    "revision": "e02d74c31071fd54213e",
-    "url": "/fat/static/js/main.f8af26e2.chunk.js"
+    "revision": "eee69b3c1e3fba1a11a1",
+    "url": "/fat/static/js/main.a973d398.chunk.js"
   },
   {
     "revision": "b1c8d20d905078d4288d",
