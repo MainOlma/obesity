@@ -20,7 +20,7 @@ function drawMap() {
         .range([0, colscale(1)])
 
     const wghtScale = d3.scaleLinear()
-        .domain([10, 100])
+        .domain([20, 70])
         .range([30, 800])
 
     const wdthScale = d3.scaleLinear()
@@ -80,7 +80,7 @@ function drawMap() {
             .enter()
             .append("text")
             .attr("class", "label")
-            .attr("font-size", 10)
+            .attr("font-size", 16)
             .attr("text-anchor", "middle")
             .attr("fill", "black")
             .attr("x", d => {
@@ -234,7 +234,7 @@ function drawMap() {
 
                         d3.select("#tooltip .year").text(" в " + year);
 
-                        return `'wght' ${wghtScale(d[year+'sexes'])} `
+                        return `'wght' ${wghtScale(d[year+'sexes'])}, 'wdth' 50`
                     })
 
 

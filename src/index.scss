@@ -32,7 +32,7 @@ code {
   color: $color-white;
 }
 
-.label {transition: all 100ms ease 0ms}
+.label {font-variation-settings: "wdth" 50;}
 
 #tooltip {
   position: absolute;
