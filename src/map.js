@@ -5,7 +5,7 @@ import fat from './fat.csv'
 
 function drawMap() {
     console.log("draw map")
-    const w = 572, h = 651
+    const w = 572, h = 451
 //scales
     const rowscale = d3.scaleLinear()
         .domain([0, 26])
@@ -25,7 +25,7 @@ function drawMap() {
 
     const wdthScale = d3.scaleLinear()
         .domain([0, 100])
-        .range([100, 100])
+        .range([50, 200])
 
     let focus;
 
@@ -234,7 +234,7 @@ function drawMap() {
 
                         d3.select("#tooltip .year").text(" в " + year);
 
-                        return `'wght' ${wghtScale(d[year+'sexes'])}`
+                        return `'wght' ${wghtScale(d[year+'sexes'])} `
                     })
 
 
