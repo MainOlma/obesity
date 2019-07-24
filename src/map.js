@@ -140,9 +140,11 @@ function drawMap() {
                     }
 
                     victimsData.push(data[i])
+
                 }
             }
-            //console.log(victimsData)
+
+            console.log(victimsData)
             drawCountryes(victimsData)
 
             let ix = 1976
@@ -218,8 +220,8 @@ function drawMap() {
                     .data(countryData)
 
                 labels
-                    .classed("circlesInterpolate", d => {
-                        if (+d[year+"sexes"] < 0) return true
+                    .classed("withoutData", d => {
+                        if (!d.hasOwnProperty(year+"sexes")) return true
                         else return false
                     })
 

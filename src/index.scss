@@ -32,7 +32,14 @@ code {
   color: $color-white;
 }
 
-.label {font-variation-settings: "wdth" 50;}
+.label {
+  font-variation-settings: "wdth" 50;
+
+  &.withoutData{
+    opacity: 0.2;
+    font-variation-settings: "wght" 400, "wdth" 50 !important;
+  }
+ }
 
 #tooltip {
   position: absolute;
