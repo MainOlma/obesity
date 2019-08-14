@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "866da11f72222d6f97f66cafafbe8951",
+    "revision": "5637af5d7993a340765561d1d18b98cc",
     "url": "/fat/index.html"
   },
   {
-    "revision": "88aa7de1c1130621eb3c",
+    "revision": "8237a2e5b5fcf22412e9",
     "url": "/fat/static/css/main.7411cf66.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fat/static/js/2.8733c675.chunk.js"
   },
   {
-    "revision": "88aa7de1c1130621eb3c",
-    "url": "/fat/static/js/main.4035cba3.chunk.js"
+    "revision": "8237a2e5b5fcf22412e9",
+    "url": "/fat/static/js/main.63a6277b.chunk.js"
   },
   {
     "revision": "b1c8d20d905078d4288d",
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fat/static/media/bg.e7f9d55f.png"
   },
   {
-    "revision": "8cbf0942e45c085e442fc9f11e007d6e",
-    "url": "/fat/static/media/fat.8cbf0942.csv"
+    "revision": "21ef6881bf1ff202de0923acdb6a535e",
+    "url": "/fat/static/media/fat.21ef6881.csv"
   },
   {
     "revision": "266e706d36cf14a6c3f1047f0a6647af",
