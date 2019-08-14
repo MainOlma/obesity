@@ -7,7 +7,7 @@ function App() {
   drawMap()
   return (
     <div className="App">
-        Prevalence of overweight among adults, BMI ≥ 25
+
     </div>
   );
 }

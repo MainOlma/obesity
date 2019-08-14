@@ -2,10 +2,10 @@ import * as d3 from 'd3'
 import {landGrid} from './landGrid'
 import gridMap from './gridMap.csv'
 import fat from './fat.csv'
+import {bg} from './bg.png'
 
 function drawMap() {
-    console.log("draw map")
-    const w = 572, h = 451
+    const w = 572, h = 442
 //scales
     const rowscale = d3.scaleLinear()
         .domain([0, 26])
@@ -27,24 +27,26 @@ function drawMap() {
         .domain([0, 100])
         .range([50, 200])
 
+
+
     let focus;
 
     function drawCountryes(countryData) {
 
         //Set up SVG
-        const svg = d3.select("#root").append("svg")
+        const svg = d3.select("#root").append("svg").classed("chart",true)
             .attr("width", w)
             .attr("height", h)
             .attr("fill", "black");
 
-        const mapmask = svg.append("rect")
+        /*const mapmask = svg.append("rect")
             .attr("x", 0)
             .attr("y", 0)
             .attr("width", w)
             .attr("height", h)
-            .attr("fill", "#C1EDFF");
+            .attr("fill", "#C1EDFF");*/
 
-        const gridland = svg.selectAll("polygon.land")
+        /*const gridland = svg.selectAll("polygon.land")
             .data(landGrid)
             .enter()
             .append("polygon")
@@ -58,12 +60,84 @@ function drawMap() {
             .attr("transform", d => {
                 return "translate(" +
                     [colscale(d.Y - 1), rowscale(d.X - 1)] + ")"
-            });
+            });*/
+
+        const header = svg.append("g").classed("header",true)
+
+        header.append("text")
+            .classed("main",true)
+            .html("Ожирение в <tspan class='year'>2016</tspan> году")
+            .attr("x", 24)
+            .attr("y", 32)
+
+        const legend = header.append("text")
+            .classed("legend",true)
+            .attr("x", 24)
+            .attr("y", 62)
+
+        legend.append("tspan")
+            .attr("dy",0)
+            .attr("x",24)
+            .text("Жирность шрифта показывает процент населения")
+        legend.append("tspan")
+            .attr("dy","1em")
+            .attr("x",24)
+            .text("с избыточным весом:")
+
+        const note = header.append("text")
+            .classed("note",true)
+            .attr("x", 377)
+            .attr("y", 62)
+
+        note.append("tspan")
+            .attr("dy",0)
+            .attr("x",377)
+            .text("Данные нормированы")
+        note.append("tspan")
+            .attr("dy","1em")
+            .attr("x",377)
+            .text("по возрасту")
+
+        const percents = header.append("text")
+            .classed("percents",true)
+            .attr("x", 24)
+            .attr("y", 98)
+
+        percents.append("tspan")
+            .text("20% ")
+            .style("font-variation-settings",`'wght' ${wghtScale(20)}, 'wdth' 50`)
+
+        percents.append("tspan")
+            .text("30% ")
+            .style("font-variation-settings",`'wght' ${wghtScale(30)}, 'wdth' 50`)
+
+        percents.append("tspan")
+            .text("40% ")
+            .style("font-variation-settings",`'wght' ${wghtScale(40)}, 'wdth' 50`)
+
+        percents.append("tspan")
+            .text("50% ")
+            .style("font-variation-settings",`'wght' ${wghtScale(50)}, 'wdth' 50`)
+
+        percents.append("tspan")
+            .text("60% ")
+            .style("font-variation-settings",`'wght' ${wghtScale(60)}, 'wdth' 50`)
+
+        percents.append("tspan")
+            .text("70%")
+            .style("font-variation-settings",`'wght' ${wghtScale(70)}, 'wdth' 50`)
+
+
+
+
+
+
+
 
 
 // COUNTRY label boxes
         const labelboxes = svg.selectAll("rect.boxes").data(countryData).enter().append("rect")
-            .attr("fill", "white")
+            .attr("fill", "rgba(0,0,0,0)")
             .attr("class", "boxes")
             .attr("width", colscale(1))
             .attr("height", rowscale(1))
@@ -71,7 +145,7 @@ function drawMap() {
                 return colscale(d.Col - 1);
             })
             .attr("y", d => {
-                return rowscale(d.Row - 1);
+                return rowscale(d.Row - 1)+167;
             });
 
         // COUNTRY Labels
@@ -87,7 +161,7 @@ function drawMap() {
                 if (d) return colscale(+d.Col - 0.5)
             })
             .attr("y", d => {
-                if (d) return rowscale(+d.Row - 0.35);
+                if (d) return rowscale(+d.Row - 0.35)+167;
             })
             .text(d => d.CountryCode)
             .style("font-variation-settings", d => `"wght" ${wghtScale(d['2016sexes'])}, "wdth" ${wdthScale(d['2016sexes'])}`)
@@ -110,7 +184,7 @@ function drawMap() {
             d3.select("#tooltip").classed("hidden", false);
         });
         labelboxes.on("mouseout", function () {
-            d3.select(this).style("fill", "white");
+            d3.select(this).style("fill", "rgba(0,0,0,0)");
             d3.select("#tooltip").classed("hidden", true);
         });
 
@@ -144,11 +218,11 @@ function drawMap() {
                 }
             }
 
-            console.log(victimsData)
+            //console.log(victimsData)
             drawCountryes(victimsData)
 
             let ix = 1976
-            const delay=200
+            const delay=400
             let timer
             resetTimer()
 
@@ -212,8 +286,10 @@ function drawMap() {
             }
 
             function updateData(year) {
+
+                d3.select("tspan.year").text(year)
                 const countryData = victimsData
-                console.log ("update data",year)
+                //console.log ("update data",year)
 
 
                 const labels = d3.select("svg").selectAll("text.label")

@@ -1,10 +1,18 @@
 $color-white:#fff;
 $color-black:#000;
 
+html,body{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 @font-face {
   font-family: LeagueMonoVariable;
   src: url(./LeagueMonoVariable.ttf) format('truetype');
 }
+
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,700&display=swap');
 
 body {
   margin: 0;
@@ -22,15 +30,28 @@ code {
 }
 .wrapper {
   margin: 0 auto;
+  height: 100%;
   width: 572px;
+
   position: relative;
-  background: #C1EDFF;
+
+  //background: linear-gradient(62.52deg, #FFC4A0 21.39%, #FEDDAA 99.34%);
+
+  svg.chart {
+    width: 572px;
+    height: 702px;
+  }
+
+  svg.footer{
+    margin-left: 26px;
+  }
 }
 
 .App{
-  background: $color-black;
-  color: $color-white;
+
 }
+
+
 
 .label {
   font-variation-settings: "wdth" 50;
@@ -65,4 +86,35 @@ code {
   .year {
     opacity: 0.4;
   }
+}
+
+#root{
+  background: url("./bg.png");
+  background-size: contain;
+  margin-bottom: -50px;
+}
+
+.header{
+  font-family: 'IBM Plex Mono', monospace;
+  transform: translate(0, 33px);
+  .main{
+    font-family: IBM Plex Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 100%;
+  }
+  .legend, .note{
+    font-family: IBM Plex Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 120%;
+  }
+
+  .percents {
+    font-family: LeagueMonoVariable;
+  }
+
+
 }
