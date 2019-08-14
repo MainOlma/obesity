@@ -20,7 +20,7 @@ function drawMap() {
         .range([0, colscale(1)])
 
     const wghtScale = d3.scaleLinear()
-        .domain([20, 70])
+        .domain([20, 80])
         .range([30, 800])
 
     const wdthScale = d3.scaleLinear()
@@ -124,10 +124,12 @@ function drawMap() {
             .style("font-variation-settings",`'wght' ${wghtScale(60)}, 'wdth' 50`)
 
         percents.append("tspan")
-            .text("70%")
+            .text("70% ")
             .style("font-variation-settings",`'wght' ${wghtScale(70)}, 'wdth' 50`)
 
-
+        percents.append("tspan")
+            .text("80%")
+            .style("font-variation-settings",`'wght' ${wghtScale(80)}, 'wdth' 50`)
 
 
 
@@ -218,11 +220,11 @@ function drawMap() {
                 }
             }
 
-            console.log(victimsData)
+            //console.log(victimsData)
             drawCountryes(victimsData)
 
             let ix = 1976
-            const delay=400
+            const delay=1000
             let timer
             resetTimer()
 
@@ -230,7 +232,11 @@ function drawMap() {
                 timer =setInterval(timerTick, delay);
             }
 
-            const playButton = d3.select("svg").append("text").attr("class","playbutton").text("❚❚").attr("x",w-rowscale(0.9)).attr("y",colscale(0.75)).attr("fill","black");
+            const playButton = d3.select("svg").append("text").attr("class","playbutton").text("❚❚")
+                .attr("x",w-rowscale(0.9))
+                .attr("y",colscale(0.75))
+                .attr("fill","rgba(0,0,0,0)")
+                .style("cursor","pointer");
 
             function timerTick() {
 
