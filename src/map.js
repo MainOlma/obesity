@@ -218,7 +218,7 @@ function drawMap() {
                 }
             }
 
-            //console.log(victimsData)
+            console.log(victimsData)
             drawCountryes(victimsData)
 
             let ix = 1976
