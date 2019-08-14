@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8541284d-5500-42bb-934c-9027571202de" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/map.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/map.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gridMap.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/gridMap.csv" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -75,7 +75,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/map.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
@@ -90,8 +90,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fat.csv">
           <provider selected="true" editor-type-id="csv-text-editor">
-            <state relative-caret-position="343">
-              <caret line="166" column="3434" lean-forward="true" selection-start-line="165" selection-end-line="166" selection-end-column="3434" />
+            <state relative-caret-position="-17">
+              <caret line="165" column="17" selection-start-line="165" selection-start-column="17" selection-end-line="165" selection-end-column="17" />
             </state>
           </provider>
           <provider editor-type-id="csv-table-editor">
@@ -227,11 +227,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/gridMap.csv">
           <provider selected="true" editor-type-id="csv-text-editor">
-            <state relative-caret-position="610">
-              <caret line="208" column="14" selection-start-line="207" selection-end-line="210" selection-end-column="33" />
+            <state relative-caret-position="1870">
+              <caret line="208" column="29" selection-start-line="208" selection-start-column="29" selection-end-line="208" selection-end-column="29" />
             </state>
           </provider>
           <provider editor-type-id="csv-table-editor">
@@ -298,9 +298,9 @@
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/index.scss" />
+        <option value="$PROJECT_DIR$/src/map.js" />
         <option value="$PROJECT_DIR$/src/fat.csv" />
         <option value="$PROJECT_DIR$/src/gridMap.csv" />
-        <option value="$PROJECT_DIR$/src/map.js" />
       </list>
     </option>
   </component>
@@ -380,12 +380,12 @@
       <workItem from="1563948551015" duration="13006000" />
       <workItem from="1564043402789" duration="1158000" />
       <workItem from="1565010855669" duration="4539000" />
-      <workItem from="1565618693852" duration="15792000" />
+      <workItem from="1565618693852" duration="16466000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64754000" />
+    <option name="totallyTimeSpent" value="65428000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
@@ -452,28 +452,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/gridMap.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="610">
-          <caret line="208" column="14" selection-start-line="207" selection-end-line="210" selection-end-column="33" />
+    <entry file="file://$PROJECT_DIR$/src/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="93" column="20" selection-start-line="93" selection-start-column="20" selection-end-line="93" selection-end-column="20" />
         </state>
       </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3">
-          <column index="0" width="100" />
-          <column index="1" width="100" />
-          <column index="2" width="100" />
-          <column index="3" width="100" />
-          <column index="4" width="100" />
-          <column index="5" width="100" />
-          <column index="6" width="100" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="112" selection-start-line="21" selection-start-column="112" selection-end-line="21" selection-end-column="112" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fat.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="343">
-          <caret line="166" column="3434" lean-forward="true" selection-start-line="165" selection-end-line="166" selection-end-column="3434" />
+        <state relative-caret-position="-17">
+          <caret line="165" column="17" selection-start-line="165" selection-start-column="17" selection-end-line="165" selection-end-column="17" />
         </state>
       </provider>
       <provider editor-type-id="csv-table-editor">
@@ -608,20 +604,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="93" column="20" selection-start-line="93" selection-start-column="20" selection-end-line="93" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="21" column="112" selection-start-line="21" selection-start-column="112" selection-end-line="21" selection-end-column="112" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/map.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -629,6 +611,24 @@
           <folding>
             <element signature="e#0#24#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gridMap.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="1870">
+          <caret line="208" column="29" selection-start-line="208" selection-start-column="29" selection-end-line="208" selection-end-column="29" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3">
+          <column index="0" width="100" />
+          <column index="1" width="100" />
+          <column index="2" width="100" />
+          <column index="3" width="100" />
+          <column index="4" width="100" />
+          <column index="5" width="100" />
+          <column index="6" width="100" />
         </state>
       </provider>
     </entry>
