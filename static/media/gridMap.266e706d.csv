@@ -195,7 +195,7 @@ Id,Col,Row,ShortName,CountryCode,Continent,Country
 193,13,5,Ukraine,UKR,Europe,Ukraine
 194,16,15,United Arab Emirates,ARE,Middle East,United Arab Emirates
 195,7,4,United Kingdom,GBR,Europe,United Kingdom
-196,2,7,United States of America,USA,North America,United States
+196,2,7,United States of America,USA,North America,United States of America
 197,4,24,Uruguay,URY,South America,Uruguay
 198,16,9,Uzbekistan,UZB,Central Asia,Uzbekistan
 199,21,19,Vanuatu,VUT,Oceania,Vanuatu
@@ -205,3 +205,7 @@ Id,Col,Row,ShortName,CountryCode,Continent,Country
 203,15,16,Yemen,YEM,Middle East,Yemen
 204,12,22,Zambia,ZMB,Africa,Zambia
 205,12,23,Zimbabwe,ZWE,Africa,Zimbabwe
+206,22,24,Cook Islands,COK,Oceania,Cook Islands
+207,21,16,Marshall Islands,MRS,Oceania,Marshall Islands
+208,22,23,Niue,NIU,Oceania,Niue
+209,22,17,Nauru,NAU,Oceania,Nauru
