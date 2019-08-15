@@ -3,7 +3,7 @@ Id,Col,Row,ShortName,CountryCode,Continent,Country
 1,11,10,Albania,ALB,Europe,Albania
 2,9,12,Algeria,DZA,Africa,Algeria
 3,22,19,American Samoa,ASM,Oceania,American Samoa
-4,7,7,Andorra,ADO,Europe,Andorra
+4,7,7,Andorra,AND,Europe,Andorra
 5,11,23,Angola,AGO,Africa,Angola
 6,5,15,Antigua and Barbuda,ATG,Central America,Antigua and Barbuda
 7,3,25,Argentina,ARG,South America,Argentina
@@ -126,7 +126,7 @@ Id,Col,Row,ShortName,CountryCode,Continent,Country
 124,8,7,Monaco,MCO,Europe,Monaco
 125,19,6,Mongolia,MNG,South-east Asia,Mongolia
 126,11,9,Montenegro,MNE,Europe,Montenegro
-127,8,12,Morocco,MOR,Africa,Morocco
+127,8,12,Morocco,MAR,Africa,Morocco
 128,13,23,Mozambique,MOZ,Africa,Mozambique
 129,18,14,Myanmar,MMR,South-east Asia,Myanmar
 130,11,24,Namibia,NAM,Africa,Namibia
@@ -150,7 +150,7 @@ Id,Col,Row,ShortName,CountryCode,Continent,Country
 148,6,8,Portugal,PRT,Europe,Portugal
 149,5,12,Puerto Rico,PRI,Central America,Puerto Rico
 150,15,15,Qatar,QAT,Middle East,Qatar
-151,13,6,Romania,ROM,Europe,Romania
+151,13,6,Romania,ROU,Europe,Romania
 152,16,4,Russian Federation,RUS,Central Asia,Russian Federation
 153,13,20,Rwanda,RWA,Africa,Rwanda
 154,22,20,Samoa,WSM,Oceania,Samoa
@@ -205,7 +205,7 @@ Id,Col,Row,ShortName,CountryCode,Continent,Country
 203,15,16,Yemen,YEM,Middle East,Yemen
 204,12,22,Zambia,ZMB,Africa,Zambia
 205,12,23,Zimbabwe,ZWE,Africa,Zimbabwe
-206,22,24,Cook Islands,CKI,Oceania,Cook Islands
-207,21,16,Marshall Islands,MAR,Oceania,Marshall Islands
+206,22,24,Cook Islands,COK,Oceania,Cook Islands
+207,21,16,Marshall Islands,MHL,Oceania,Marshall Islands
 208,22,23,Niue,NIU,Oceania,Niue
-209,22,17,Nauru,NAU,Oceania,Nauru
+209,22,17,Nauru,NRU,Oceania,Nauru
