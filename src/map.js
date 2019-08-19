@@ -66,42 +66,42 @@ function drawMap() {
 
         header.append("text")
             .classed("main",true)
-            .html("Ожирение в <tspan class='year'>2016</tspan> году")
+            .html("Избыточный вес в <tspan class='year'>2016</tspan> году")
             .attr("x", 24)
-            .attr("y", 32)
+            .attr("y", 25)
 
         const legend = header.append("text")
             .classed("legend",true)
-            .attr("x", 24)
-            .attr("y", 62)
+            .attr("x", 25)
+            .attr("y", 57)
 
         legend.append("tspan")
             .attr("dy",0)
             .attr("x",24)
             .text("Жирность шрифта показывает процент населения")
         legend.append("tspan")
-            .attr("dy","1em")
+            .attr("dy","14")
             .attr("x",24)
             .text("с избыточным весом:")
 
         const note = header.append("text")
             .classed("note",true)
             .attr("x", 377)
-            .attr("y", 62)
+            .attr("y", 56)
 
         note.append("tspan")
             .attr("dy",0)
             .attr("x",377)
             .text("Данные нормированы")
         note.append("tspan")
-            .attr("dy","1em")
+            .attr("dy","14")
             .attr("x",377)
             .text("по возрасту")
 
         const percents = header.append("text")
             .classed("percents",true)
-            .attr("x", 24)
-            .attr("y", 98)
+            .attr("x", 25)
+            .attr("y", 92)
 
         percents.append("tspan")
             .text("20% ")
@@ -147,7 +147,7 @@ function drawMap() {
                 return colscale(d.Col - 1);
             })
             .attr("y", d => {
-                return rowscale(d.Row - 1)+167;
+                return rowscale(d.Row - 1)+183;
             });
 
         // COUNTRY Labels
@@ -163,7 +163,7 @@ function drawMap() {
                 if (d) return colscale(+d.Col - 0.5)
             })
             .attr("y", d => {
-                if (d) return rowscale(+d.Row - 0.35)+167;
+                if (d) return rowscale(+d.Row - 0.35)+183;
             })
             .text(d => d.CountryCode)
             .style("font-variation-settings", d => `"wght" ${wghtScale(d['2016sexes'])}, "wdth" ${wdthScale(d['2016sexes'])}`)
