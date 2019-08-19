@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d5fd902714c68073eb5663f7ab76b4a7",
+    "revision": "815d126a07ac39b06781a4cfd5200eca",
     "url": "/fat/index.html"
   },
   {
-    "revision": "90ac7397223374171872",
-    "url": "/fat/static/css/main.7411cf66.chunk.css"
+    "revision": "048baa69a8d6834de901",
+    "url": "/fat/static/css/main.b2cd0a54.chunk.css"
   },
   {
     "revision": "c3a5ea74bfb0830f1084",
     "url": "/fat/static/js/2.8733c675.chunk.js"
   },
   {
-    "revision": "90ac7397223374171872",
-    "url": "/fat/static/js/main.d23fe399.chunk.js"
+    "revision": "048baa69a8d6834de901",
+    "url": "/fat/static/js/main.bf93149f.chunk.js"
   },
   {
     "revision": "b1c8d20d905078d4288d",
@@ -24,8 +24,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fat/static/media/LeagueMonoVariable.36660314.ttf"
   },
   {
-    "revision": "e7f9d55fc3437614d3954b5c24e93a73",
-    "url": "/fat/static/media/bg.e7f9d55f.png"
+    "revision": "3aba9a7d33c13edc8368941198d75e79",
+    "url": "/fat/static/media/bg.3aba9a7d.png"
   },
   {
     "revision": "21ef6881bf1ff202de0923acdb6a535e",

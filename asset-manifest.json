@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/fat/static/css/main.7411cf66.chunk.css",
-    "main.js": "/fat/static/js/main.d23fe399.chunk.js",
-    "main.js.map": "/fat/static/js/main.d23fe399.chunk.js.map",
+    "main.css": "/fat/static/css/main.b2cd0a54.chunk.css",
+    "main.js": "/fat/static/js/main.bf93149f.chunk.js",
+    "main.js.map": "/fat/static/js/main.bf93149f.chunk.js.map",
     "runtime~main.js": "/fat/static/js/runtime~main.e46317c3.js",
     "runtime~main.js.map": "/fat/static/js/runtime~main.e46317c3.js.map",
     "static/js/2.8733c675.chunk.js": "/fat/static/js/2.8733c675.chunk.js",
     "static/js/2.8733c675.chunk.js.map": "/fat/static/js/2.8733c675.chunk.js.map",
     "index.html": "/fat/index.html",
-    "precache-manifest.a252ed576e2dc9f96a7f822658535355.js": "/fat/precache-manifest.a252ed576e2dc9f96a7f822658535355.js",
+    "precache-manifest.0c9845c6306f31a57b1cd29ff18d2293.js": "/fat/precache-manifest.0c9845c6306f31a57b1cd29ff18d2293.js",
     "service-worker.js": "/fat/service-worker.js",
-    "static/css/main.7411cf66.chunk.css.map": "/fat/static/css/main.7411cf66.chunk.css.map",
+    "static/css/main.b2cd0a54.chunk.css.map": "/fat/static/css/main.b2cd0a54.chunk.css.map",
     "static/media/index.scss": "/fat/static/media/LeagueMonoVariable.36660314.ttf",
-    "static/media/bg.png": "/fat/static/media/bg.e7f9d55f.png",
+    "static/media/bg.png": "/fat/static/media/bg.3aba9a7d.png",
     "static/media/fat.csv": "/fat/static/media/fat.21ef6881.csv",
     "static/media/gridMap.csv": "/fat/static/media/gridMap.da4a8a9a.csv"
   }
